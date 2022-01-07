@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>COUNT</title>
+
+
+</head>
+<body>
+
+
+<div  id="visits" </div>
+      
+
+  <script>
+  
+  
+  var xhr = new XMLHttpRequest();
+xhr.open("GET", "https://api.countapi.xyz/hit/cgcovidstatus/visits");
+xhr.responseType = "json";
+xhr.onload = function() {
+    document.getElementById('visits').innerText = this.response.value;
+}
+xhr.send();</script>
+
+</body>
+</html>
