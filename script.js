@@ -44,7 +44,7 @@ let revChart = new Chart(ctx, {
         label: "death",
         borderColor: "black",
         backgroundColor: "rgba(233, 238, 253, 0.5)",
-        data: [0, 3, 1, 1, 3, 4, 2, 4, 4, 4, 7]
+        data: [3, 1, 1, 3, 4, 2, 4, 4, 4, 7]
       } 
     ]
   },
