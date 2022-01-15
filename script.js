@@ -16,7 +16,7 @@ let revChart = new Chart(ctx, {
       
 
 
-"jan 05",
+
 "jan 06",
 "jan 07",
 "jan 08",
@@ -25,7 +25,8 @@ let revChart = new Chart(ctx, {
 "jan 11",
 "jan 12",
 "jan 13",
-"jan 14"
+"jan 14",
+"jan 15",
      
     ],
     datasets: [
@@ -33,19 +34,19 @@ let revChart = new Chart(ctx, {
         label: "positive",
         borderColor: "red",
         backgroundColor: "rgba(235, 247, 245, 0.5)",
-        data: [1615, 2400, 2828, 3455, 2502, 4120, 5151, 5476, 6051, 6153]
+        data: [2400, 2828, 3455, 2502, 4120, 5151, 5476, 6051, 6153, 5525]
       },
       {
         label: "recovered",
         borderColor: "green",
         backgroundColor: "rgba(233, 238, 253, 0.5)",
-        data: [29, 56, 46, 69, 102, 358, 483, 1933, 4636, 4083]
+        data: [56, 46, 69, 102, 358, 483, 1933, 4636, 4083, 4240]
       },
 	   {
         label: "death",
         borderColor: "black",
         backgroundColor: "rgba(233, 238, 253, 0.5)",
-        data: [1, 1, 3, 4, 2, 4, 4, 4, 7, 5]
+        data: [1, 3, 4, 2, 4, 4, 4, 7, 5, 8]
       } 
     ]
   },
